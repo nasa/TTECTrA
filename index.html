@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Tool for Turbine Engine Closed-loop Transient Analysis by nasa</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <script src="javascripts/scale.fix.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1 class="header">Tool for Turbine Engine Closed-loop Transient Analysis</h1>
+        <p class="header">TTECTrA</p>
+
+        <ul>
+          <li class="download"><a class="buttons" href="https://github.com/nasa/TTECTrA/zipball/master">Download ZIP</a></li>
+          <li class="download"><a class="buttons" href="https://github.com/nasa/TTECTrA/tarball/master">Download TAR</a></li>
+          <li><a class="buttons github" href="https://github.com/nasa/TTECTrA">View On GitHub</a></li>
+        </ul>
+
+        <p class="header">This project is maintained by <a class="header name" href="https://github.com/nasa">nasa</a></p>
+
+
+      </header>
+      <section>
+        <h1>
+<a name="ttectra" class="anchor" href="#ttectra"><span class="octicon octicon-link"></span></a>TTECTrA</h1>
+
+<p><em>Tool for Turbine Engine Closed-loop Transient Analysis</em></p>
+
+<p>The introduction and description of TTECTrA is taken from the User’s Guide which is part of the TTECTrA release and published separately as NASA TM 2104-216663 (“Tool for Turbine Engine Closed-loop Transient Analysis (TTECTrA) User’s Guide,” Csank, J.T., and Zinnecker, A.M).</p>
+
+<h2>
+<a name="introduction" class="anchor" href="#introduction"><span class="octicon octicon-link"></span></a>Introduction</h2>
+
+<p>The Tool for Turbine Engine Closed-loop Transient Analysis (TTECTrA) is a semi-automated control design tool for subsonic aircraft engine simulations.  At a specific flight condition, TTECTrA produces a simple closed-loop controller designed to meet user-defined goals and containing only the fundamental limiters that affect the transient performance of the turbine engine.  The purpose of this tool is to provide the user a preliminary estimate of the transient performance of an engine model without the need to design a full nonlinear controller.  Development of this tool began under the NASA Fixed Wing’s Systems Analysis and Integration project.</p>
+
+<h2>
+<a name="description" class="anchor" href="#description"><span class="octicon octicon-link"></span></a>Description</h2>
+
+<p>TTECTrA has been developed in the MATLAB®/Simulink® (The Mathworks Inc.) environment which allows users to access a standard library of functions and to add on toolboxes, such as the Control System Toolbox®.  This toolbox includes functions that help to simplify the control design process and is required for use TTECTrA to operate.  This user’s guide is written assuming familiarity with MATLAB and Simulink. </p>
+
+<p>TTECTrA contains custom MATLAB functions which perform control design calculations and interact with the user’s Simulink engine model.  The tool also contains the TTECTrA Simulink Block (in the TTECTrA_block.mdl file), which implements a scheduled proportional integral (PI) controller with the designed setpoints, gains, and limiters, and supplies the fuel flow input to the user’s engine model.  </p>
+
+<p>TTECTrA has been tested and verified using MATLAB Version 8.0 (R2012b), Simulink Version 8.0 (R2012b), and the Control System Toolbox® Version 9.4 (R2012b).  The tool integrates with an engine model written in Simulink and requires a piecewise linear state space model of the engine to be available.  The TTECTrA software is released under the Apache V2.0 license agreement.</p>
+
+<h2>
+<a name="getting-started" class="anchor" href="#getting-started"><span class="octicon octicon-link"></span></a>Getting Started</h2>
+
+<p>Stable releases of TTECTrA are located under the releases tab.  It is encouraged to download the most up to date version using the appropriate software download button (green button). Installation instructions are detailed in the user's manual which is included within the package. </p>
+
+<p>TTECTrA is an open collaboration.  To become a developer, the software maybe forked at any time via the main page link.  </p>
+      </section>
+      <footer>
+        <p><small>Hosted on <a href="http://pages.github.com">GitHub Pages</a> using the Dinky theme</small></p>
+      </footer>
+    </div>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+		
+  </body>
+</html>
