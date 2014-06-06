@@ -2,6 +2,11 @@ TTECTrA
 =======
 Tool for Turbine Engine Closed-loop Transient Analysis
 
+[Click here](https://github.com/nasa/TTECTrA/releases) for the latest version of TTECTrA
+
+For questions, comments, and general support see the [TTECTrA User's Forum] (https://groups.google.com/forum/#!forum/ttectra-users-group)
+
+
 The introduction and description of TTECTrA is taken from the User's Guide, which is part of the TTECTrA release and published separately as NASA TM 2014-216663  ("Tool for Turbine Engine Closed-loop Transient Analysis (TTECTrA) User's Guide," Csank, J.T., and Zinnecker, A.M.)
 
 ### Introduction
